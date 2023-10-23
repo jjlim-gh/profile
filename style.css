@@ -42,6 +42,7 @@ a {
 .card {
   background-color: #cacacf;
   margin: 10px auto;
+  margin-bottom: 18px;
   padding: 10px;
   width: 650px;
   border-radius: 15px;
@@ -56,6 +57,55 @@ a {
 
 .link-icon i:hover {
   opacity: 0.7;
+}
+
+.horizontal-list {
+  list-style: none;
+  padding: 0;
+}
+
+.horizontal-list > li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.dota {
+  width: 100px;
+  height: 100px;
+}
+
+.valo {
+  width: 100px;
+  height: 100px;
+}
+
+.cyberpunk {
+  width: 180px;
+  height: 100px;
+}
+
+.movies {
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.cm {
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.anime {
+  width: 100px;
+  height: 150px;
+  border-radius: 5px;
+}
+
+.ig {
+  width: 200px;
+  height: 200px;
+  border-radius: 15%;
 }
 
 @media (max-width: 960px) {
